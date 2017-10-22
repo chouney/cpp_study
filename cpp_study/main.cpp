@@ -7,9 +7,13 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    int value,sum=0;
+    while(cin >> value)
+        sum += value;
+    cout << "sum is " << sum << endl;
     return 0;
 }
